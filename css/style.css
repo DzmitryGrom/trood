@@ -78,7 +78,7 @@ body{
 }  
 .header-wrapper-info{
 	list-style-type: none;
-	
+	height: 20vh;
 }
 .header-wrapper{
 	border-top: 1px solid #243C4E;
