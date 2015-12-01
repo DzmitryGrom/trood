@@ -1,0 +1,230 @@
+/* font-family: "SegoeUIRegular"; */
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUIBold"; */
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("../fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUIItalic"; */
+@font-face {
+    font-family: "SegoeUIItalic";
+    src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot");
+    src: url("../fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
+    url("../fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUILight"; */
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("../fonts/SegoeUILight/SegoeUILight.eot");
+    src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"),
+    url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUISemiBold"; */
+@font-face {
+    font-family: "SegoeUISemiBold";
+    src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+    src: url("../fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+    url("../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+	font-family: 'SegoeUI', sans-serif;
+  	color: #333;
+  	font-size: 100%;
+  	overflow-x: hidden;
+  	overflow-y: auto;
+}
+a:hover {
+    color: #228A7B; 
+}
+.active{
+	border-radius: 1px;
+	border: 2px solid #169F83;
+	background-color: #169F83;
+	color: white;
+}
+.row{
+	margin: 0px;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+}  
+.header-wrapper-info{
+	list-style-type: none;
+	
+}
+.header-wrapper{
+	border-top: 1px solid #243C4E;
+	border-bottom: 1px solid #243C4E;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding:0px;
+	display: inline-block;
+
+}
+.header{
+	display: inline-block;
+	text-align: center;
+}
+.header-list{
+	padding: 0px;
+	margin: 0px;
+}
+.header-list_left{
+	margin-left: 21.5%;
+	margin-top: 5px;
+}
+.header-list li{
+	display: inline-block;
+}
+.main-contacts{
+	display: inline-block;
+	vertical-align: middle;
+	color: #2c3e50;
+  	font-size: 1.125em
+}
+.header-info-logo_neft{
+	height: 80px;
+  	width: 180px;
+}
+.btn-header-info{
+	color: #243C4E;
+	margin: 13px 2% 0 2%;
+	background-color: white;
+	border-radius: 1px;
+	border: 2px solid #243C4E;
+    font-size: 13px;
+}
+.header-btn-trood{
+    color: white;
+    display: inline-block;
+    margin-top: 13px;
+    font-size: 10px;
+    margin-left: 20%;
+}
+.trood-logo{
+	background-repeat: no-repeat;
+  	height: 57px;
+  	width: 200px;
+}
+.text-content-top{
+	font-family: "SegoeUIBold";
+    font-size: 5em;
+    text-align: center;
+    margin: 100px 0px 40px 0px;
+}
+.text-content-bottom{
+	 font-family: "SegoeUILight";
+    font-size: 2.375em;
+    line-height: 1.42857143;
+    color: #333;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-content-bottom_list{
+	padding-left: 18px;
+}
+.icon-link-top{
+	margin-left: 15%;	
+} 
+.icon-top-text{
+	font-size: 20px;
+	color: #243C4E;
+	display: inline-block;
+	margin-top: 7px;
+}   
+.icon-top i{
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 40px;
+	font-size: 27px;
+}
+.top-solid{
+	border-right: 1px solid #243C4E;
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+
+}
+.container-wrapper{
+	padding: 0;
+}
+.color-text,.color-text span{
+	color: white;
+}
+.content-text-top{
+	margin-bottom: 10px;
+	height: 80vh;
+}
+.content-text{
+	height: 100vh;
+}
+.content-img{
+	margin: 10px 0 10px 0;
+}
+.color-content{
+	background-color: #253D4F;
+	height: 100%;
+}
+.content-solid{
+	height: 1px;
+	color: white;
+	display: block; 
+}
+.container-arrow-wrapper{
+	text-align: center;
+	margin-top: 40px;
+}
+.container-arrow{
+	background-image: url("../img/arrow.png");
+	display: inline-block;
+	background-repeat: 	no-repeat;
+	width: 29px;
+	height: 67px;
+
+}
+.footer{
+	background-color: ;
+}
+
+.footer-logo{
+	margin-left: 25%;
+    width: 200px;
+    height: 57px;
+    margin-top: 10px;
+}
+.footer-text-wrapper{
+	margin-top: 10px;
+}
+.footer-text{
+	color: #253D4F;
+	font-size: 10px;
+}
