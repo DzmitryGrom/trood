@@ -53,10 +53,22 @@ html,body{
 	width: 100%;
 	height: 100%;
 	margin: 0px;
+	padding: 0px;
 	font-family: 'SegoeUI', sans-serif;
+}
+html{
+	overflow: hidden;
+}
+body{
+	box-sizing: border-box;
+	overflow-y: auto;
 }
 a{
 	text-decoration: none;
+}
+p{
+	margin: 0px;
+	padding: 0px;
 }
 .i{
 	background-size: 100%;
@@ -81,7 +93,7 @@ a{
 }
 .i_neft{
 	width: 180px;
-	height: 80px;
+	height: 70px;
 	margin-right: 10%;
 }
 .i_phone{
@@ -109,7 +121,7 @@ a{
 }
 .header{
 	font-size: 0px;
-	height: 30vh
+	height: 20%
 }
 .header-top-logo{
 	display: inline-block;
@@ -143,37 +155,37 @@ a{
     border: 2px solid #243C4E;
     font-size: 13px;
 }
-.content-element-text-first{
-	color: #333;
+.container.container-first{
+	position: relative;
+	background-color: white;
+	height: 80%;
 }
-.content-element{
-	width: 100%;
-	height: 100vh;
+.container_arrow{
+	position: absolute;
+    right: 50%;
+    margin-right: -25px;
+    bottom: 30px;
+}
+.container{
+	height: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
 	background-color: #253D4F;
 	border-bottom: 1px solid white;
 }
-.content-element:first-child{
-	width: 100%;
-	height: 70vh;
-	background-color: white;
-	border-bottom: 1px solid white;
+.container p{
+	width: 70%;
+    padding: 15px;
+	display: inline-block;
+	vertical-align: middle;
 }
-.content-element:last-child{
-	width: 100%;
-	height: 88vh;
-}
-.content-element-text{
-	text-align: center;
-	width: 82%;
-    margin: 0 auto;
-    padding-top: 30px;
-    color: white;
-}
-.content-element-text-top{
+.container-text-top{
 	font-size: 3em;
 	font-family: "SegoeUIBold";
 }
-.content-element-text-bottom{
+.container-text-bottom{
 	font-family: "SegoeUILight";
     font-size: 1.375em;
     line-height: 1.42857143;
